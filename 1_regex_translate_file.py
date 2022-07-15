@@ -1,13 +1,20 @@
+#!/Users/pablogarcia/opt/anaconda3/envs/test4/bin/python3.9
+
+
 from itertools import count
 import re
-import googletrans
 from googletrans import Translator
-
+# To install google trans:pip install googletrans==3.1.0a0 
 translator = Translator() 
 
 
-path_source='C:/Users/gap1tl/Documents/Traduccion/Ongoing/ISO_15864_cleaned.txt'
-path_translated='C:/Users/gap1tl/Documents/Traduccion/Ongoing/1_ISO_15864_translated.txt'
+path='/Users/pablogarcia/Desktop/norms_temp/'
+
+file_input='step_0_cleaned_14222.txt'
+file_output='step_1_translated_14222.txt'
+
+path_source=path+file_input
+path_translated=path+file_output
 
 
 f_source = open(path_source, 'r',encoding='utf8')   #add encoding
