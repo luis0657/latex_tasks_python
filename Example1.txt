@@ -1,0 +1,221 @@
+Space systems — Disposal of satellites operating in or crossing Low Earth Orbit
+National foreword
+The UK participation in its preparation was entrusted to Technical Committee ACE/68, Space systems and operations.
+A list of organizations represented on this committee can be obtained on request to its secretary.
+This publication does not purport to include all the necessary provisions of a contract. Users are responsible for its correct application.
+© The British Standards Institution 2015. Published by BSI Standards
+Limited 2015
+ISBN 978 0 580 69951 1
+ICS 49.140
+Compliance with a British Standard cannot confer immunity from legal obligations.
+This British Standard was published under the authority of the Standards Policy and Strategy Committee on 31 July 2015.
+Amendments issued since publication
+Date Text affected
+
+Space systems — Disposal of satellites operating in or crossing Low Earth Orbit Systèmes spatiaux — Disposition des satellites opérant dans ou à cheval de l’orbite terrestre basse
+
+Foreword
+ISO (the International Organization for Standardization) is a worldwide federation of national standards bodies (ISO member bodies). The work of preparing International Standards is normally carried out through ISO technical committees. Each member body interested in a subject for which a technical committee has been established has the right to be represented on that committee. International organizations, governmental and non-governmental, in liaison with ISO, also take part in the work.
+
+ISO collaborates closely with the International Electrotechnical Commission (IEC) on all matters of electrotechnical standardization.
+The procedures used to develop this document and those intended for its further maintenance are described in the ISO/IEC Directives, Part 1. In particular the different approval criteria needed for the different types of ISO documents should be noted. This document was drafted in accordance with the editorial rules of the ISO/IEC Directives, Part 2 (see www.iso.org/directives).
+
+Attention is drawn to the possibility that some of the elements of this document may be the subject of patent rights. ISO shall not be held responsible for identifying any or all such patent rights. Details of any patent rights identified during the development of the document will be in the Introduction and/or on the ISO list of patent declarations received (see www.iso.org/patents). Any trade name used in this document is information given for the convenience of users and does not constitute an endorsement.
+
+For an explanation on the meaning of ISO specific terms and expressions related to conformity assessment, as well as information about ISO’s adherence to the WTO principles in the Technical Barriers to Trade (TBT), see the following URL: Foreword — Supplementary information. The committee responsible for this document is ISO/TC 20, Space systems, Subcommittee SC 14, Space systems and operations.
+
+
+Introduction
+This International Standard prescribes requirements for planning, executing manoeuvres, and operations for the post-mission disposal of a spacecraft operating in or crossing Low Earth Orbit.
+Included are requirements relating to the initiation and successful execution of these disposal actions.
+Space systems — Disposal of satellites operating in or crossing Low Earth Orbit
+1 Scope
+This International Standard focuses on the post-mission disposal of spacecraft operating in, or crossing, Low Earth Orbit (LEO). The disposal of orbital launch stages operating in, or crossing, LEO is not dealt with in this International Standard.
+Post-mission disposal of an Earth-orbiting spacecraft broadly means removing the spacecraft from its operational orbit after the end of mission, manoeuvring it to a region of space where it is less likely to interfere or collide with other operational spacecraft or with orbital debris and passivating.
+For a spacecraft operating in, or crossing LEO, there are six disposal options that might be used to ensure its compliance with orbital debris mitigation requirements (as stated in ISO 24113). In order of preference, these are the following:
+a) retrieving it and performing a controlled re-entry to recover it safely on the Earth;
+b) manoeuvring it in a controlled manner into a targeted re-entry with a well-defined impact footprint on the surface of the Earth to limit the possibility of human casualty;
+c) manoeuvring it in a controlled manner to an orbit that has a decay lifetime short enough to meet all orbital debris mitigation requirements;
+d) augmenting its orbital decay by deploying a device so that the remaining orbital lifetime is short enough to meet all orbital debris mitigation requirements;
+e) allowing its orbit to decay naturally, given that all orbital debris mitigation requirements will be met without the need for a disposal manoeuvre or other action;
+f) manoeuvring it in a controlled manner to an orbit with a perigee altitude sufficiently above the LEO protected region (i.e. a graveyard orbit) that long-term perturbation forces do not cause it to reenter the LEO protected region within 100 years.
+This International Standard specifies requirements for the following:
+a) planning for disposal and passivation of spacecraft operating in LEO to ensure that final disposal is sufficiently characterized and that adequate propellant will be reserved for any propulsive manoeuvre required,
+b) selecting a disposal orbit where the spacecraft will re-enter the Earth’s atmosphere within the next 25-years, or where the spacecraft will not re-enter the protected region within the next 100-years, and 
+c) estimating, prior to launch, a 90 % or better probability of successfully executing the disposal manoeuvre.
+
+Techniques for planning and executing space hardware disposal are provided that reflect current internationally accepted guidelines and consider current operational procedures and best practices.
+
+2 Normative references
+The following documents, in whole or in part, are normatively referenced in this document and are indispensable for its application. For dated references, only the edition cited applies. For undated references, the latest edition of the referenced document (including any amendments) applies. 
+
+ISO 23339, Space systems — Unmanned spacecraft — Estimating the mass of remaining usable propellant
+ISO 24113:2011, Space systems — Space debris mitigation requirements
+ISO 27852, Space systems — Orbit lifetime estimation
+ISO 27875, Space systems — Re-entry risk management for unmanned spacecraft and launch vehicle orbital stages
+
+
+3 Terms and definitions
+For the purposes of this document, the terms and definitions given in ISO 24113 and the following apply.
+3.1
+ballistic coefficient
+product of the coefficient of drag and the average velocity-normal cross-sectional area divided by the mass (CdA/m)
+3.2
+decay phase
+period that begins at the end of life of a spacecraft, when it has been placed into its disposal orbit, and ends when the spacecraft has performed a re-entry
+Note 1 to entry: Only applies for spacecraft performing re-entry.
+3.3
+disposal manoeuvre
+action of moving a spacecraft to its disposal orbit
+3.4
+disposal orbit
+orbit in which a spacecraft resides following the completion of its disposal manoeuvre
+3.5
+graveyard orbit
+disposal orbit which locates a spacecraft outside of the protected region
+3.6
+passivation
+act of permanently depleting or making safe all remaining on-board sources of stored energy in a controlled sequence
+4 Symbols and abbreviated terms
+
+Z altitude above the surface of a spherical Earth
+dV delta velocity
+EOMDP end of mission disposal plan
+GEO geostationary orbit
+LEO Low Earth Orbit
+SDMP space debris mitigation plan
+
+5 LEO protected region
+
+The LEO protected region, defined by ISO 24113 and indicated in Figure 1, is the volume within a shell that extends from the surface of a spherical Earth (with a radius of 6 378 km) up to an altitude (Z) of 2 000 km.
+Orbits in the LEO protected region tend to have a wide range of starting inclinations. In addition, due to the proximity of the Earth, orbits tend to be strongly perturbed, which cause their parameters to quickly change from the initial conditions. The combination of these two effects means that, while some orbits are more popular than others, any orbit within this volume can be populated.
+
+Key
+Earth
+equator
+LEO region
+GEO region
+Z altitude measured with respect to a spherical Earth whose radius is 6 378 km
+ZGEO altitude of the geostationary orbit with respect to a spherical Earth whose radius is 6 378 km
+NOTE The dimensions in the figure are not to scale.
+
+Figure 1 — View in the equatorial plane of Earth and the LEO and GEO protected regions (not to scale)
+6 Primary requirements
+
+6.1 General
+If it is possible within the constraints of the design of a spacecraft, the following sub-clauses define the primary requirements to be placed on the operator of the spacecraft.
+6.2 Ensuring execution of disposal actions
+6.2.1 To ensure that a disposal plan is sufficiently characterized and that adequate propellant is reserved for any propulsive manoeuvre required, an end of mission disposal plan (EOMDP) shall be developed, maintained, and updated in all phases of a spacecraft mission.
+6.2.2 The EOMDP shall form part of the Space Debris Mitigation Plan (SDMP) for the mission.
+6.3 Priority in selection of a disposal option
+6.3.1 The order of priority in choosing a spacecraft’s disposal option is listed in ISO 24113:2011, 6.3.3.2.
+When selecting one of the six disposal options, i.e. a) to f), the decision shall be justified and documented in the EOMDP.
+NOTE A graveyard orbit is the least favourable option for disposing of a LEO spacecraft. The selection of a graveyard orbit is usually only attractive for LEO spacecraft in orbits whose perigee altitude is between 1 400 km and 2 000 km at end of mission. At lower perigee altitudes, disposal orbits with orbital lifetimes of less than 25 years would be more cost-effective. Since missions with perigee altitudes between 1 400 km and 2 000 km are currently rare, the selection of this disposal option is infrequent.
+6.3.2 The EOMDP shall also include an estimate of the casualty risk posed by the uncontrolled re-entry of the spacecraft.
+6.3.3 If the casualty risk for uncontrolled re-entry exceeds that specified by an approving agent, then either disposal option a) “retrieval and re-entry” or disposal option b) “targeted re-entry” or disposal option f) “moving to an orbit above the LEO protected region” shall be selected as the disposal method.
+6.3.4 Irrespective of which disposal option is selected during the design of the spacecraft, at end of mission, if disposal can be achieved through a more preferable option, that option shall be implemented.
+6.4 Post-mission lifetime
+6.4.1 If a spacecraft is placed into a disposal orbit with a perigee altitude below 2 000 km, for which atmospheric re-entry of the spacecraft is the eventual objective then, regardless of how it came to be in this orbit, the post-mission lifetime of this orbit shall be less than 25 years.
+This clarifies the meaning of ISO 24113:2011, 6.3.3.1 in which it states that a spacecraft operating in the LEO protected region, with either a permanent or periodic presence, shall limit its post-mission presence in the LEO protected region to a maximum of 25 years from the end of mission.
+NOTE The 25-year duration is an upper limit. It is preferable to reduce the decay phase duration to as small a time period as possible.
+
+6.4.2 The consequence of a re-entering spacecraft impacting on the Earth can be controlled with ISO 27875.
+6.5 Time in graveyard orbit
+6.5.1 As specified in ISO 24113:2011, 6.3.3.2, if placed into a graveyard orbit, the spacecraft shall remain outside of, and not interfere with, the LEO protected region for a period of at least 100 years.
+6.5.2 When selecting disposal option f), a graveyard orbit, a long-term (at least 100-year) orbital perturbation analysis shall be conducted (and documented in the EOMDP) to ensure that the disposal orbit is not altered, particularly by solar and lunar gravitational forces, in such a way that the disposed spacecraft will enter the LEO or GEO protected regions within 100 years.
+6.6 Extendable antennas in graveyard orbit
+Where possible, if a graveyard orbit has been selected, prior to end of life of the mission, any large extendable antennas should be retracted or furled in order to reduce the possibility of collision with other objects.
+6.7 Passivation
+6.7.1 After the completion of all other disposal actions, and as soon as is safely possible, a spacecraft that is not performing a controlled re-entry shall be passivated.
+6.7.2 Details of the passivation procedures shall be documented in the EOMDP.
+6.7.3 Passivation should be completed independent of the success or failure of other aspects of the disposal.
+6.7.4 If the spacecraft is to perform a re-entry, it is recommended that any remaining on-board propellant be used to further reduce the decay phase duration.
+NOTE Further passivation-related requirements concerning the design of the spacecraft can be found in ISO 16127.
+6.8 Probability of successful disposal
+6.8.1 As specified in ISO 24113:2011, 6.3.1.1, a spacecraft shall be designed such that the probability of successful disposal (including passivation) of the spacecraft is at least 0,9 at the time disposal is executed.
+6.8.2 Details of the design that provides the basis for the estimate of the probability of successful disposal shall be documented in the EOMDP.
+6.8.3 The probability of successful disposal shall be evaluated as conditionally weighted on mission success, as described in ISO 24113:2011, 6.3.1.2.
+
+7 Disposal planning requirements
+7.1 General
+7.1.1 Planning activities which define at a high-level the post-mission disposal actions to be performed shall start during the mission design.
+7.2.1 It is recommended that planning for disposal actions at a detailed-level begins at least six months prior to the date of disposal in order to allow sufficient time for the planning to occur.
+7.2 Documentation of disposal plans
+As a minimum, the EOMDP shall include the following:
+a) details of the nominal mission orbit;
+b) a statement of the chosen disposal method (retrieval, controlled re-entry, controlled decay, augmented decay, natural decay, or graveyard orbit) and the basis for selection of that method;
+c) details of the passivation operations required, including actions and timelines;
+d) estimates of the propellant, power, controllability, and communications required for any disposal manoeuvre;
+e) identity of systems and capabilities required for successful completion of each disposal action;
+f) criteria for initiating each disposal action;
+g) timeline for initiation and execution of each disposal action;
+h) those individuals and/or entities to be notified of the end of mission and disposal and a time line for notification; and
+i) plan and timeline for retracting or furling any large expendable antennas, where this is applicable and possible.
+7.3 Procedure for planning for disposal
+7.3.1 General
+The following steps shall be followed when planning for disposal.
+a) Estimate the ballistic coefficient (CdA/m), having selected the most appropriate attitude (e.g. spacecraft tumbling). A description of this technique is given in ISO 27852.
+b) Predict the orbit lifetime of the nominal mission orbit beginning at the end-of-life. No further planning is required if the predicted orbit lifetime based on one of the methods described in ISO 27852 is within 25 years. However, when feasible, it is recommended that the approach in 6.7.4 be implemented to reduce the decay phase duration to as small a time period as possible.
+c) If the lifetime estimation is greater than 25 years, select which of the disposal options listed in ISO 24113:2011, 6.3.3.2 is to be used.
+NOTE Annex A provides a flowchart to illustrate this procedure in more detail. Specific requirements are given in the following sub-clauses.
+7.3.2 Manoeuvring to a lower altitude orbit
+7.3.2.1 Single- or multiple-burns should be performed at apogee to lower the perigee altitude to the predetermined value that ensures an orbital lifetime of less than 25 years.
+NOTE It has been proven through numerical simulations that this approach requires less propellant than a two-burn Hohmann type transfer, which lowers both apogee and perigee, to ensure a lifetime less than 25 years.
+7.3.2.2 The perigee-lowering burn(s) should be executed near a predetermined time such that the new argument of perigee is in a direction where the perigee height can be decreased by solar radiation pressure.
+NOTE 1 This is likely to be at or close to either 90 degrees or 270 degrees.
+NOTE 2 This optimum eccentricity vector can shorten the 25-year lifetime by 1 % to 20 %, depending on initial eccentricity and perigee altitude. Consequently, the amount of required delta-V for ensuring decay within 25 years can be significantly reduced.
+7.3.3 Augmenting the decay by deploying a device
+7.3.3.1 Orbital decay can be augmented through the use of drag enhancement devices, such as balloons or parachutes.
+7.3.3.2 The average ballistic coefficient of the spacecraft with the drag enhancement device deployed shall be estimated.
+NOTE The new ballistic coefficient is determined using the same method described above.
+7.3.3.3 Depending on the effectiveness of the drag enhancement device, it can also be necessary for the spacecraft to perform an apogee burn to lower its perigee altitude.
+7.3.3.4 The deployment of the drag device and the apogee burn, if needed, should be timed as described in 7.3.2.2 for achieving the initial optimum eccentricity vector.
+7.3.3.5 An assessment of the device is recommended to demonstrate that either the device will significantly reduce the collision risk of the spacecraft by the reduction of the orbit lifetime or that the device will not cause other spacecraft or large debris to fragment if a collision occurs while the spacecraft is decaying from orbit.
+7.3.4 Manoeuvring to a higher altitude orbit
+7.3.4.1 For a spacecraft orbiting within the LEO protected region, at least two disposal manoeuvre burns will be required to raise both the perigee altitude and the apogee altitude of the orbit above the protected region.
+7.3.4.2 When selecting the new altitude for the apogee, care should be taken to ensure it does not interfere with the LEO protected region for a period of at least 100 years (6.5), and does not encroach into the GEO protected region.
+7.4 Criteria for executing disposal actions
+7.4.1 Specific criteria for the initiation of each disposal action shall be developed, included in the EOMDP, and monitored throughout the mission life.
+NOTE Examples are estimated amounts of propellant remaining, redundancy remaining, status of electrical power, status of systems critical to successful disposal, and time required to execute each disposal action.
+7.4.2 Projections of mission life based on these criteria shall be estimated throughout the mission life.
+7.4.3 If it is determined that the impact of executing a particular disposal action will result in an increased probability of the spacecraft causing debris within the protected region then it shall be acceptable to forego that disposal action.
+NOTE 1 An example of this is the scenario where, after launch, a problem is identified with the de-orbit propulsion system, which is deemed likely to result in a catastrophic loss of the spacecraft. In this case, it would be better not to use the propulsion system and hence, not to execute the disposal manoeuvre.
+NOTE 2 Annex B provides a flowchart to illustrate this procedure for performing a post-mission disposal manoeuvre.
+7.5 Contingency planning
+7.5.1 In the event that the systems and capabilities required for the successful completion of disposal [as identified in section (e) of the EOMDP] stop functioning prior to the end of the mission it shall be necessary to develop and carry out a contingency plan.
+7.5.2 The contingency plan shall identify steps to remove the spacecraft from the protected region and passivate it before any further critical systems are lost.
+7.5.3 In this situation, best efforts should be taken to lower the orbital perigee altitude as much as possible.
+NOTE It is not necessary to compile a contingency plan prior to the failure of a critical system as to cover all possible eventualities would be infeasible.
+8 Disposal manoeuvre requirements
+8.1 Guidelines for calculating the disposal manoeuvre
+If it is necessary for the spacecraft to perform a disposal manoeuvre, the dV requirement of the manoeuvre shall be calculated based on the predicted end of mission orbit of the spacecraft, and the required decay or graveyard orbit, according to the steps in 7.3.
+8.2 Computing the decay orbit lifetime
+If the spacecraft has been selected for an atmospheric re-entry then the decay orbit lifetime shall be computed. 
+NOTE ISO 27852 describes some appropriate methods for achieving this.
+8.3 Computing the time in graveyard orbit
+8.3.1 If the spacecraft has been selected for a graveyard orbit, then the time that the spacecraft remains outside of the protected region shall be calculated.
+NOTE ISO 27852 describes some appropriate methods for achieving this.
+8.3.2 The time duration in the graveyard orbit shall be counted from the point at which the orbitchanging manoeuvre is complete to the first time at which the perigee of the orbit is less than the upper bound of the LEO protected region.
+8.4 Estimating propellant reserves
+8.4.1 If the spacecraft is to perform a disposal manoeuvre, it is necessary to ensure that there is sufficient usable propellant to perform the manoeuvre.
+8.4.2 Calculation of propellant reserves can be done in accordance with ISO 23339.
+8.5 Propellant depletion
+Propellant depletion can affect the spacecraft’s orbit. The effects the depletion action will have on the final orbit of the vehicle shall be considered.
+8.6 Determination whether the disposal should be a controlled manoeuvre
+If the spacecraft has been selected for a re-entry then determination of whether the disposal should be a controlled manoeuvre can be done in accordance with ISO 27875.
+
+
+Annex A
+(informative)
+Procedure to select a post-mission disposal option
+A procedure to enable the selection of a post-mission disposal option is illustrated in Figure A.1.
+Figure A.1 — Flowchart of procedure to select a post-mission disposal option
+
+
+Annex B
+(informative)
+Procedure for performing a post-mission disposal manoeuvre
+A procedure for performing a post-mission disposal manoeuvre is illustrated in Figure B.1.
+Figure B.1 — Flowchart of procedure for performing a post-mission disposal manoeuvre
+Bibliography
+[1] ISO 16127, Space systems — Prevention of break-up of unmanned spacecraft

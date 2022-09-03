@@ -3,13 +3,13 @@
 import re
 import time
 
-path='/Users/pablogarcia/Desktop/norms_temp/'
-file_in='step_2_cleaned_again_14222.txt'
-file_out_0='step_3_subsection_0_14222.txt'
-file_out_1='step_3_subsection_1_14222.txt'
-file_out_2='step_3_subsection_2_14222.txt'
-file_out_3='step_3_subsection_3_14222.txt'
-file_out_4='step_3_subsection_4_14222.txt'
+path='/Users/pablogarcia/Desktop/norms_temp/16164/'
+file_in='step_1_translated_16164.txt'
+file_out_0='step_3_subsection_0_16164.txt'
+file_out_1='step_3_subsection_1_16164.txt'
+file_out_2='step_3_subsection_2_16164.txt'
+file_out_3='step_3_subsection_3_16164.txt'
+file_out_4='step_3_subsection_4_16164.txt'
 
 path_string_removed=path+file_in
 path_section=path+file_out_0
@@ -57,17 +57,18 @@ with open(path_subsection_2,'r',encoding='utf8') as oldfile4, open(path_subsecti
         # newfile4.write(re.sub(r'(?P<first>^\d\.\d+\.\d+$)',remplacing_sub_section_2, line))
         newfile4.write(re.sub(r'(?P<first>^\d\.\d+$)',remplacing_sub_section_2, line))
 
-
 with open(path_subsection_3,'r',encoding='utf8') as oldfile5, open(path_subsection_4, 'w',encoding='utf8') as newfile5: #Three digits + Text
     for line in oldfile5:
         newfile5.write(re.sub(r'(?P<first>^.\.\d+\.\d+\.\d+) (?P<second>.*)',remplacing_sub_section, line))
 
+# lllllllll
+
+# with open(path_string_removed,'r',encoding='utf8') as oldfile, open(path_section, 'w',encoding='utf8') as newfile: #One digit + Text
+#     for line in oldfile:
+#         newfile.write(re.sub(r'(?P<first>^\d) (?P<second>.*)',remplacing_section, line))
 
 
-
-
-
-# #1 r'\g<first>3\g<third>'
+# # #1 r'\g<first>3\g<third>'
 # #2 r'\g<first>3'
 
 

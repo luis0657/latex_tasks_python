@@ -8,10 +8,10 @@ from googletrans import Translator
 translator = Translator() 
 
 
-path='/Users/pablogarcia/Desktop/norms_temp/'
+path='/Users/pablogarcia/Desktop/norms_temp/16164/'
 
-file_input='step_0_cleaned_14222.txt'
-file_output='step_1_translated_14222.txt'
+file_input='step_0_cleaned_again_16164.txt'
+file_output='step_1_translated_16164.txt'
 
 path_source=path+file_input
 path_translated=path+file_output

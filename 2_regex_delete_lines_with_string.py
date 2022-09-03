@@ -1,11 +1,11 @@
 #!/Users/pablogarcia/opt/anaconda3/envs/test4/bin/python3.9
 
-bad_words = ['Todos los derechos reservados', 'ISO 15864:2021(E)','ISO 14222:2022(E)']
+bad_words = ['All rights reserved','ISO 16164:2015']
 
-path='/Users/pablogarcia/Desktop/norms_temp/'
+path='/Users/pablogarcia/Desktop/norms_temp/16164/'
 
-file_input='step_1_translated_14222.txt'
-file_output='step_2_cleaned_again_14222.txt'
+file_input='16164_cleaned.txt'
+file_output='step_0_cleaned_again_16164.txt'
 
 
 path_translated=path+file_input
